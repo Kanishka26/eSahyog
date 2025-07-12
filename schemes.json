@@ -1,0 +1,1794 @@
+[
+  {
+    "name": "Old Age Samman Allowance",
+    "description": "Monthly allowance (₹3,000 as of Jan 2024) for Haryana residents aged ≥60, family income ≤₹300,000/year, and not receiving any government pension.",
+    "link": "https://socialjusticehry.gov.in/old-age-samman-allowance-scheme/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 300000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired / Unemployed elderly"
+      ],
+      "state": "Haryana"
+    }
+  },
+  {
+    "name": "Lado Lakshmi Yojana",
+    "description": "Monthly stipend (Rs. 2,100) for female residents aged between 18-60 from BPL families, with no member in government employment or paying income tax.",
+    "link": "https://socialjusticehry.gov.in/",
+    "criteria":{
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Unemployed / Household women from BPL families"
+      ],
+      "state": "Haryana"
+    }
+  },
+  {
+    "name": "Ladli Social Security Allowance",
+    "description": "Rs. 3,000/month for families with only daughters, parent aged >=45, and family income <= Rs.200,000/year, for 15 years.",
+    "link": "https://socialjusticehry.gov.in/",
+    "criteria":{
+      "age_min": 45,
+      "age_max": null,
+      "income_max": 200000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Parents of girl children (non-government employees)"
+      ],
+      "state": "Haryana"
+    }
+  },
+   {
+    "name": "Pension to Widows & Destitute Women",
+    "description": "Rs. 3,000/month pension for women aged >=18, domiciled in Haryana >=1 year, income <Rs. 300,000/year, widowed/destitute.",
+    "link": "https://socialjusticehry.gov.in/",
+    "criteria":{
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 300000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widows / Unemployed or economically dependent women"
+      ],
+      "state": "Haryana"
+    }
+  },
+  {
+    "name": "Financial Assistance to Destitute Children",
+    "description": "Monthly allowance (~Rs. 2,100 for first child) for destitute Haryana children aged <21, parental income <= Rs.200,000/year.",
+    "link": "https://socialjusticehry.gov.in/",
+    "criteria":{
+      "age_min": null,
+      "age_max": 21,
+      "income_max": 200000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Student / Unemployed minor"
+      ],
+      "state": "Haryana"
+    }
+  },
+  {
+    "name": "Old Age Pension",
+    "description": "Rs. 1,500/month pension for elderly residents-women aged >=58 years and men aged >=65-income <= Rs.60,000/year, limited land holdings.",
+    "link": "https://sswcd.punjab.gov.in/en/old-age-pension",
+    "criteria": {
+      "age_min": 58,
+      "age_max": null,
+      "income_max": 60000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Punjab"
+    }
+  },
+  {
+    "name": "Financial Assistance to Widows & Destitute Women",
+    "description": "R. 1,500/month for widows or destitute/unmarried women (unmarried >=30, widows <58), income <= Rs.60,000/year.",
+    "link": "https://sswcd.punjab.gov.in/en/financial-assistance-to-widows-and-destitute-women-1",
+    "criteria": {
+      "age_min": 30,
+      "age_max": 58,
+      "income_max": 60000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widowed", 
+        "Destitute", 
+        "Unemployed"
+      ],
+      "state": "Punjab"
+    }
+  },
+  {
+    "name": "Financial Assistance to Dependent Children",
+    "description": "Monthly assistance for children under 21 who are orphaned or whose parents are incapacitated, income <= Rs.60,000/year.",
+    "link": "https://sswcd.punjab.gov.in/en/social-security/pensionsfinancial-assistance",
+    "criteria": {
+      "age_min": null,
+      "age_max": 21,
+      "income_max": 60000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Student", 
+        "Unemployed minor", 
+        "Orphaned"
+      ],
+      "state": "Punjab"
+    }
+  },
+  {
+    "name": "Financial Assistance to Disabled Persons",
+    "description": "Rs. 1,500/month for persons with >=50% disability (any level mental disability), income <= Rs.60,000/year.",
+    "link": "https://sswcd.punjab.gov.in/en/social-security/pensionsfinancial-assistance",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 60000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Punjab"
+    }
+  },
+  {
+    "name": "Old Age Assistance",
+    "description": "Monthly financial assistance: Rs.2,000 for ages 60-69 and Rs.2,500 for 70+, with additional Rs.500 for SC/ST/minorities. Eligibility: Delhi resident >=5 years, annual family income <= Rs.100,000.",
+    "link": "https://socialwelfare.delhi.gov.in/social/financial-assistance-welfare-scheme-details-and-notifications-etc",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 100000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Delhi"
+    }
+  },
+  {
+    "name": "Old Age Pension Scheme (Renewed)",
+    "description": "Rs.2,500/month for ages 60-69 and Rs.3,000 for 70+, Delhi resident >=5 years, family income <Rs.100,000. Applies to non-pensioners.",
+    "link": "https://indianexpress.com/article/what-is/delhi-govts-old-age-pension-scheme-eligibility-application-process-and-all-you-should-know-9691313/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 100000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Delhi"
+    }
+  },
+  {
+    "name": "Disability Pension Scheme",
+    "description": "Rs.2,500/month pension for persons with >=40-50% disability, Delhi resident >=5 years, family income <Rs.100,000, not receiving other pensions.",
+    "link": "https://www.govtschemes.in/delhi-disability-pension-scheme",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 100000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Delhi"
+    }
+  },
+  {
+    "name": "Pension for Women in Distress",
+    "description": "RS.2,500/month pension for women in distress (widows, deserted, disabled), under the Delhi Pension Scheme for Women in Distress, annual income below Rs.100,000.",
+    "link": "https://timesofindia.indiatimes.com/city/delhi/delhi-bjp-alleges-scam-in-womens-pension-scheme",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 100000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Deserted", 
+        "Disabled", 
+        "Unemployed"
+      ],
+      "state": "Delhi"
+    }
+  },
+  {
+    "name": "Old Age Pension (Vridha Pension)",
+    "description": "Rs.1,000/month (Rs. 12,000 annually) for residents aged >=60, income <= Rs.46,080/year (rural) or <= Rs.56,460/year (urban), not receiving other pensions.",
+    "link": "https://sspy-up.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 56460,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Uttar Pradesh"
+    }
+  },
+  {
+    "name": "Widow Pension Scheme",
+    "description": "Rs.1,000/month for widows aged >=18, family income <= Rs.200,000/year, not receiving other pensions.",
+    "link": "https://sspy-up.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 200000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Uttar Pradesh"
+    }
+  },
+  {
+    "name": "Disability Pension Scheme",
+    "description": "Rs.1,000/month for persons aged >=18 with >=40% disability, income <= Rs.46,080/year (rural) or <= Rs.56,460/year (urban), not receiving other pension.",
+    "link": "https://sspy-up.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 56460,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Uttar Pradesh"
+    }
+  },
+  {
+    "name": "Leprosy Pension Scheme",
+    "description": "Rs.3,000/month for persons of any age with leprosy-related disability, income <= Rs.46,080/year (rural) or <= Rs.56,460/year (urban), not receiving other pension.",
+    "link": "https://sspy-up.gov.in/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 56460,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Leprosy", 
+        "Unemployed"
+      ],
+      "state": "Uttar Pradesh"
+    }
+  },
+  {
+    "name": "Chief Minister Old Age Pension",
+    "description": "Rs.1,000/month for women >=55 years and men >=58, annual family income <= Rs.48,000, Rajasthan resident, DBT via SSO/E-Mitra.",
+    "link": "https://ssp.rajasthan.gov.in/LoginContent/MidLogin.aspx",
+    "criteria": {
+      "age_min": 55,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Rajasthan"
+    }
+  },
+  {
+    "name": "Rajasthan Widow Pension Scheme (Mukhyamantri Ekal Naari Samman)",
+    "description": "Rs.500-1,500/month for widowed/divorced/single women (18+), increasing with age-Rs.500 at 18-55, Rs.750 at 55-60, Rs.1,000 at 60-75, Rs.1,500 at 75+, family income <= Rs.48,000.",
+    "link": "https://ssp.rajasthan.gov.in/LoginContent/MidLogin.aspx",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Divorced", 
+        "Single"
+      ],
+      "state": "Rajasthan"
+    }
+  },
+  {
+    "name": "Social Security Disability & Leprosy Pension",
+    "description": "Rs.500/month (<=75 years) or Rs.750/month (75+) for persons with disability/leprosy, income <= Rs.60,000/year, Rajasthan resident.",
+    "link": "https://sje.rajasthan.gov.in/schemes/Pension.html",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 60000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Rajasthan"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Yojana (IGNWPS)",
+    "description": "Rs.1,000/month widows aged 40-<75, Rs.1,500 for >=75, BPL families, Rajasthan resident, under NSAP alignment.",
+    "link": "https://services.india.gov.in/service/detail/apply-for-indira-gandhi-national-widow-pension-scheme-rajasthan",
+    "criteria": {
+      "age_min": 40,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Rajasthan"
+    }
+  },
+  {
+    "name": "Gujarat Ganga Swarupa Yojana",
+    "description": "Rs.1,250/month pension for widowed women (18+) in Gujarat; income <= Rs.120,000/year rural or <= Rs.150,000/year urban; DBT via offline application.",
+    "link": "https://wcd.gujarat.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "income_max_rural": 120000,
+      "income_max_urban": 150000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Gujarat"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Rs.1,000/month (60-79 yrs) or Rs.1,250/month (80+) for Gujarat residents >=60 yrs, BPL (rural income <Rs.120k or urban <Rs.150k), DBT via Mamlatdar.",
+    "link": "https://nsap.nic.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max_rural": 120000,
+      "income_max_urban": 150000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Gujarat"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "description": "Pension (central Rs.300-Rs.750) for persons with >=80% disability aged 18-79, BPL in Gujarat, DBT via local Mamlatdar.",
+    "link": "https://nsap.nic.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Gujarat"
+    }
+  },
+  {
+    "name": "Mukhyamantri Vridhajan Pension Yojana (MVPY)",
+    "description": "Rs.400/month for residents >=60 yrs and Rs.500 for >=80 yrs (BPL), not receiving any other pension.",
+    "link": "https://sspmis.bihar.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Laxmibai Social Security Pension Scheme (State Widow Pension)",
+    "description": "Rs.400/month for widows >=18 yrs (BPL), age 40-79 for central component.",
+    "link": "https://www.sspmis.bihar.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 79,
+      "income_max": 60000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Mukhya Mantri Kanya Utthan Yojana (Bihar)",
+    "description": "Incentives for the education and welfare of girl children in Bihar.",
+    "link": "https://serviceonline.bihar.gov.in/",
+    "criteria": {
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "student"
+      ],
+      "income_max": 200000,
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Bihar State Disability Pension Scheme (BSDP)",
+    "description": "Rs.400/month for persons with >=40% disability (any age/BPL), rs.500/month if >=80 yrs.",
+    "link": "https://saksham.bihar.gov.in/BSDP.aspx",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Central pension Rs.400/month (60-79 yrs), Rs.500 (>=80 yrs) for BPL elderly.",
+    "link": "https://saksham.bihar.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "description": "Rs.400/month for widows aged 40-79 from BPL families under central NSAP.",
+    "link": "https://saksham.bihar.gov.in/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Bihar"
+    }
+  },
+  {
+    "name": "Old Age Pension (Vridhavastha Pension)",
+    "description": "Rs.750/month for ages 60-69 with annual family income <= Rs.35,000; Rs.1,300/month for 70+ (no income limit); offline application via welfare offices.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 35000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "State Widow/Single Woman Pension",
+    "description": "Rs.1,150/month for widows, deserted, or single women with annual income <= Rs.35,000; no minimum age specified.",
+    "link": "https://www.egovtschemes.com/widow-abandoned-single-woman-pension-scheme/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 35000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Deserted", 
+        "Unmarried"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Disability Relief Allowance",
+    "description": "Rs.1,000/month for 40-69% disability and Rs.1,500/month for >=70% or mental disability or age 70+, with income <= Rs.35,000/year.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 35000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Rehabilitation Allowance for Lepers",
+    "description": "Rs.850/month (Rs.1,500 for 70+) for leprosy patients not in govt service, no age or income limit.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Leprosy", 
+        "Unemployed"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Transgender Pension Scheme",
+    "description": "Rs.850/month (Rs.1,500 for 70+) for state-certified transgender persons, no income or age limit.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "transgender"
+      ],
+      "occupation": [
+        "Transgender", 
+        "Unemployed"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Central pension Rs. 1,000/month (60-79 yrs) or Rs.1,500/month (70+ per state update) for BPL elderly in HP under NSAP.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "description": "Central Rs.300 + state aid up to Rs.1,500 for persons aged 18-79 with >=80% disability under NSAP.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "description": "Central Rs.300 + state aid total Rs.1,500/month for widows aged 40-79 under NSAP.",
+    "link": "https://esomsa.hp.gov.in/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Himachal Pradesh"
+    }
+  },
+  {
+    "name": "Kushal Konwar Briddha Pension Scheme",
+    "description": "Rs.250/month DBT for elderly Assam residents aged>=60; excludes those receiving other govt schemes, govt-employed children's parents, or taxpayers with income >Rs.250,000/year.",
+    "link": "https://assam.gov.in/home.php/scheme-page/526",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 250000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "IGNOAPS (National Old Age Pension)",
+    "description": "Rs.200/month for ages 60-79; Rs.500/month for >=80, for BPL elderly Assam residents under NSAP.",
+    "link": "https://rural.assam.gov.in/information-services/detail/pensions",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "IGNWPS (National Widow Pension)",
+    "description": "Rs.300/month for widows >=40-79; Rs.500/month for >=80, Assam BPL widows under NSAP.",
+    "link": "https://rural.assam.gov.in/information-services/detail/pensions",
+    "criteria": {
+      "age_min": 40,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "IGNDPS (National Disability Pension)",
+    "description": "Rs.300/month up to age 79, Rs.500/month for >=80, for persons with >=80% disability and BPL, Assam residents under NSAP.",
+    "link": "https://rural.assam.gov.in/information-services/detail/pensions",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "National Family Benefit Scheme (NFBS)",
+    "description": "One-time lump sum Rs.20,000 to bereaved BPL households on death of a breadwinner aged 18-64.",
+    "link": "https://rural.assam.gov.in/information-services/detail/pensions",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Bereaved family"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "Annapurna Scheme",
+    "description": "10 kg free rice/month for elderly BPL individuals not covered under IGNOAPS.",
+    "link": "https://rural.assam.gov.in/information-services/detail/pensions",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "Atal Pension Yojana (Assam)",
+    "description": "Voluntary contributory pension 18-40 yrs unorganised sector; monthly pension Rs.1,000-5,000 at age 60 based on contributions.",
+    "link": "https://labour.assam.gov.in/index.php/scheme-page/atal-pension-yojana",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 40,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Unorganized sector worker"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "ABOCWWB Disability Pension",
+    "description": "Rs.2,000/month + Rs.100/year service for registered construction workers permanently disabled; one-time ex-gratia up to Rs.300,000.",
+    "link": "https://www.egovtschemes.com/disability-pension-a-b-o-c-w-w-b/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Construction worker with permanent disability"
+      ],
+      "state": "Assam"
+    }
+  },
+  {
+    "name": "Chief Minister Pension Scheme",
+    "description": "Rs.350/month for elderly aged >=60 and abandoned women (>=18), permanent residents under BPL.",
+    "link": "https://housing.com/news/all-about-chhattisgarh-pension-yojana/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Abandoned women"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "Pleasant Support Scheme (State Widow Pension)",
+    "description": "Rs.350/month for widows and deserted women aged >=18 from BPL families.",
+    "link": "https://housing.com/news/all-about-chhattisgarh-pension-yojana/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Deserted woman"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "Social Security Pension Scheme (Disability)",
+    "description": "Rs.350/month for disabled persons aged >=18 with >=40% disability, and dwarf persons BPL.",
+    "link": "https://jashpur.nic.in/en/scheme/social-security-pension-scheme/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Dwarf"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "IGNOAPS (National Old Age Pension)",
+    "description": "Rs.350/month for elderly aged 60-79; Rs.650 for >=80, BPL residents under NSAP.",
+    "link": "https://housing.com/news/all-about-chhattisgarh-pension-yojana/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "IGNWPS (National Widow Pension)",
+    "description": "Rs.350/month for widows aged 40-79, BPL under NSAP.",
+    "link": "https://www.egovtschemes.com/ignwps-cg/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "IGNDPS (National Disability Pension)",
+    "description": "Rs.500/month for persons aged 18-79 with >=80% disability (Rs.300 centre + Rs.200 state).",
+    "link": "https://housing.com/news/all-about-chhattisgarh-pension-yojana/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "Mukhyamantri Nirman Shramik Pension Sahayata",
+    "description": "Rs.1,500/month pension for construction workers >=60 registered >=10 yrs; Rs.700 for widows.",
+    "link": "https://www.egovtschemes.com/mukhyamantri-nirmaan-shramik-pension-sahayata-yojana/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Construction worker", 
+        "Registered building worker"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "National Family Benefit Scheme (NFBS)",
+    "description": "One-time Rs.20,000 for BPL family on death of breadwinner aged 18-59.",
+    "link": "https://housing.com/news/all-about-chhattisgarh-pension-yojana/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 59,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Bereaved family"
+      ],
+      "state": "Chhattisgarh"
+    }
+  },
+  {
+    "name": "Dayanand Social Security Scheme (DSSS)",
+    "description": "Monthly pension for vulnerable groups: Rs.2,000 for senior citizens and disabled adults; Rs.2,500 for single women/widows and children with disability.",
+    "link": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 24000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Person with Disability", 
+        "Single woman", 
+        "Widow"
+      ],
+      "state": "Goa"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "description": "Rs.2,500/month under DSSS for single women (including widows/divorcees) aged 18+ and up to senior category transition.",
+    "link": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 24000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Single woman", 
+        "Widow", 
+        "Divorced", 
+        "Deserted"
+      ],
+      "state": "Goa"
+    }
+  },
+  {
+    "name": "Senior Citizen Pension (DSSS subcategory)",
+    "description": "Rs.2,000/month for Goa residents aged 60+, under DSSS.",
+    "link": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 24000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly"
+      ],
+      "state": "Goa"
+    }
+  },
+  {
+    "name": "Disability Pension (DSSS subcategory)",
+    "description": "Rs.2,000/month for adults and Rs.2,500/month for children with disabilities, under DSSS.",
+    "link": "https://socialwelfare.goa.gov.in/dayanand-social-security-scheme-dsss/",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": 24000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability"
+      ],
+      "state": "Goa"
+    }
+  },
+  {
+    "name": "Goa Building & Other Construction Workers Pension",
+    "description": "Rs.300/month + Rs.10 per year of service after age 60 for registered construction workers.",
+    "link": "https://labour.goa.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Registered construction worker"
+      ],
+      "state": "Goa"
+    }
+  },
+  {
+    "name": "Sarvajan Pension Scheme",
+    "description": "Universal pension Rs.1,000/month for elderly (60+), widows (18+), disabled adults; age limit lowered to 50 for women and SC/ST.",
+    "link": "https://drishtiias.com/state-pcs-current-affairs/jharkhand-government-implements-schemes-for-social-upliftment",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Widow", 
+        "Person with Disability"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Rs.600/month (60-79 yrs) and Rs.700/month (80+ yrs) under NSAP for BPL elderly.",
+    "link": "https://bokaro.nic.in/social-security/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "description": "Rs.600/month for widows aged 40-60 under NSAP for BPL families.",
+    "link": "https://bokaro.nic.in/social-security/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 60,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Disability Pension (IGNDPS)",
+    "description": "Rs.600/month for persons aged 40-60 with >=80% disability under NSAP for BPL.",
+    "link": "https://bokaro.nic.in/social-security/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 60,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "State Social Security Pension Scheme",
+    "description": "Rs.600/month for elderly (60+), widows (18+), disabled (>40%) and released bonded labourers with rural income <= Rs.10,500 or urban <= Rs.12,500.",
+    "link": "https://chaibasa.nic.in/social-security-cell/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max_rural": 10500,
+      "income_max_urban": 12500,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Widow", 
+        "Person with Disability", 
+        "Released bonded labourer"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Adim Janjati Pension Yojana",
+    "description": "Rs.600/month for primitive tribal adults (18+) whose family members are not employed in govt or private sector.",
+    "link": "https://chaibasa.nic.in/social-security-cell/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Primitive Tribe adult"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Mukhyamantri Rajya Nirashrit Mahila Samman Pension",
+    "description": "Rs.1,000/month for abandoned or single women (>=45) and widows (>=18), no other pension or govt job.",
+    "link": "https://www.egovtschemes.com/rajya-nirashrit-mahila-samman-pension/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Abandoned woman", 
+        "Single woman (>=45)"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "National Family Benefit Scheme (NFBS)",
+    "description": "One-time Rs.20,000 to bereaved BPL family on death of primary breadwinner aged 18-65.",
+    "link": "https://bokaro.nic.in/social-security/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 65,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Bereaved family"
+      ],
+      "state": "Jharkhand"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Rs.1,200/month total (Rs.200 centre + Rs.1,000 state) for destitute elderly aged 60-79; Rs.1,200 total (Rs.500 centre + Rs.700 state) for 80+.",
+    "link": "https://revadmin.tn.gov.in/about_schemes.php",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Unemployed elderly"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Widow Pension Scheme (IGNWPS)",
+    "description": "Rs.1,200/month total (Rs.300 centre + Rs.900 state) for destitute widows aged >=40 years under BPL.",
+    "link": "https://revadmin.tn.gov.in/about_schemes.php",
+    "criteria": {
+      "age_min": 40,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Disability Pension Scheme (IGNDPS)",
+    "description": "Rs.1,500/month total (Rs.300 centre + Rs.1,200 state) for persons aged >=18 with >=80% disability under BPL.",
+    "link": "https://revadmin.tn.gov.in/about_schemes.php",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Differently Abled Pension Scheme (DAPS)",
+    "description": "Rs.1,500/month for persons aged >=18 with >=40% disability; private/self-employed with income <= Rs.300,000/year are eligible.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 300000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Destitute Widow Pension Scheme (DWPS)",
+    "description": "Rs.1,200/month for destitute widows aged >=18 with assets <= Rs.100,000.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Destitute", 
+        "Unemployed"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Destitute/Deserted Wives Pension Scheme (DDWPS)",
+    "description": "Rs.1,200/month for destitute divorced/deserted women aged >=30 (5 years separation certificate) with assets <= Rs.100,000.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": 30,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Deserted", 
+        "Divorced", 
+        "Destitute", 
+        "Unemployed"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Unmarried Poor Women Pension (UWP)",
+    "description": "Rs.1,200/month for destitute unmarried women aged >=50 with assets <= Rs.100,000.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": 50,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Unmarried destitute"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Chief Minister's Uzhavar Padhukappu Thittam (CMUPT) - Elderly Agricultural Laborer Pension",
+    "description": "Rs.1,200/month for destitute agricultural laborers aged >=60 with assets <= Rs.100,000.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Agricultural labourer", 
+        "Destitute", 
+        "Unemployed elderly"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Sri Lankan Refugee Pension Schemes",
+    "description": "Rs.1,200/month for old age/disability/widow/refugee unmarried women under specific refugee pensions.",
+    "link": "https://revadmin.tn.gov.in/eleg_schemes.php",
+    "criteria": {
+      "age_min": null,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all", 
+        "female"
+      ],
+      "occupation": [
+        "Old age", 
+        "Person with Disability", 
+        "Widow", 
+        "Unmarried refugee woman"
+      ],
+      "state": "Tamil Nadu"
+    }
+  },
+  {
+    "name": "Old Age Pension",
+    "description": "Rs.1,500/month for residents aged >=60 (can apply at 59%), permanent Uttarakhand domicile, annual family income <= Rs.48,000 or BPL, not receiving other pensions.",
+    "link": "https://ssp.uk.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired", 
+        "Unemployed elderly"
+      ],
+      "state": "Uttarakhand"
+    }
+  },
+  {
+    "name": "Widow Pension",
+    "description": "Rs.1,500/month for widows aged >=18 under state scheme, permanent resident, BPL or annual family income <= Rs.48,000, not receiving other pensions.",
+    "link": "https://ssp.uk.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Uttarakhand"
+    }
+  },
+  {
+    "name": "Disability Pension",
+    "description": "Rs.1,500/month for persons aged >=18 with disability under state scheme, permanent resident, BPL or annual family income <= Rs.48,000.",
+    "link": "https://ssp.uk.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability", 
+        "Unemployed"
+      ],
+      "state": "Uttarakhand"
+    }
+  },
+  {
+    "name": "Farmer Pension",
+    "description": "Rs.1,500/month for farmers aged >=18 under state scheme; eligibility includes BPL/annual income limit and permanent residence.",
+    "link": "https://ssp.uk.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": null,
+      "income_max": 48000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Farmer"
+      ],
+      "state": "Uttarakhand"
+    }
+  },
+  {
+    "name": "West Bengal Jai Bangla Pension Scheme (Umbrella)",
+    "description": "Rs.1,000/month pension under categories: Old Age, Widow, Disability, SC (Taposili Bandhu), ST (Jai Johar), Manabik, Farmer, Fishermen, Artisan/Weaver, Lok Prasar.",
+    "link": "https://popularschemes.com/west-bengal-jai-bangla-scheme",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Widow", 
+        "Person with Disability", 
+        "SC elderly", 
+        "ST elderly", 
+        "Manabik (disabled)", 
+        "Farmer", 
+        "Fishermen", 
+        "Artisan/Weaver"
+      ],
+      "state": "West Bengal"
+    }
+  },
+  {
+    "name": "INDIRA GANDHI NATIONAL OLD AGE PENSION SCHEME (IGNOAPS)",
+    "description": "Rs.400/month for BPL elderly 60-79; Rs.1,000/month for 80+ under NSAP.",
+    "link": "https://udma.wb.gov.in/page/cms/national_social_assistance_program",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly"
+      ],
+      "state": "West Bengal"
+    }
+  },
+  {
+    "name": "INDIRA GANDHI NATIONAL WIDOW PENSION SCHEME (IGNWPS)",
+    "description": "Rs.600/month for BPL widows aged 40-79 under NSAP.",
+    "link": "https://udma.wb.gov.in/page/cms/national_social_assistance_program",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow"
+      ],
+      "state": "West Bengal"
+    }
+  },
+  {
+    "name": "INDIRA GANDHI NATIONAL DISABILITY PENSION SCHEME (IGNDPS)",
+    "description": "Rs.600/month for BPL persons (18-79) with severe/multiple disabilities under NSAP.",
+    "link": "https://udma.wb.gov.in/page/cms/national_social_assistance_program",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 79,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Person with Disability"
+      ],
+      "state": "West Bengal"
+    }
+  },
+  {
+    "name": "NATIONAL FAMILY BENEFIT SCHEME (NFBS)",
+    "description": "One-time Rs.40,000 lump-sum to BPL family on death of primary breadwinner aged 18-59.",
+    "link": "https://udma.wb.gov.in/page/cms/national_social_assistance_program",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 59,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Bereaved family"
+      ],
+      "state": "West Bengal"
+    }
+  },
+  {
+    "name": "Sandhya Suraksha Yojana",
+    "description": "Rs.1,000/month pension for elderly >=65 with annual income <= Rs.20,000 and bank balance <= Rs.10,000; also includes discounted KSRTC travel, medical aid, NGO support.",
+    "link": "https://sevasindhuservices.karnataka.gov.in/",
+    "criteria": {
+      "age_min": 65,
+      "age_max": null,
+      "income_max": 20000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Farmer", 
+        "Weaver", 
+        "Fisherman", 
+        "Unorganized-sector worker"
+      ],
+      "state": "Karnataka"
+    }
+  },
+  {
+    "name": "Karnataka BOCW Pension Scheme",
+    "description": "Rs.2,000-3,000/month pension for registered construction workers aged >=60, with >=3 years membership and income <= Rs.15,000/month, no concurrent pension.",
+    "link": "https://kbocwwb.karnataka.gov.in/",
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": 15000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Registered construction worker"
+      ],
+      "state": "Karnataka"
+    }
+  },
+  {
+    "name": "Disability Pension (KBOCWWB)",
+    "description": "Rs.2,000/month + ex-gratia up to Rs.2 Lakh for registered construction workers (18-60) with partial workplace disability.",
+    "link": "https://kbocwwb.karnataka.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 15000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Construction worker with disability"
+      ],
+      "state": "Karnataka"
+    }
+  },
+  {
+    "name": "Shravanbal Seva Rajya Nivrutti Vetan Yojana",
+    "description": "Rs.600/month (Rs.200 central + Rs.400 state) for destitute senior citizens aged >=65 with annual family income <= Rs.21,000 or BPL, permanent Maharashtra resident >=15 years.",
+    "link": "https://www.egovtschemes.com/shravanbal-seva-state-pension/",
+    "criteria": {
+      "age_min": 65,
+      "age_max": null,
+      "income_max": 21000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Unemployed elderly"
+      ],
+      "state": "Maharashtra"
+    }
+  },
+  {
+    "name": "Indira Gandhi National Old Age Pension Scheme (IGNOAPS)",
+    "description": "Rs.600/month total (Rs.200 central + Rs.400 state top-up) for BPL elderly aged >= 65 under NSAP.",
+    "link": "https://pune.gov.in/scheme/indira-gandhi-national-old-age-pension-scheme/",
+    "criteria": {
+      "age_min": 65,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Retired elderly", 
+        "Unemployed elderly"
+      ],
+      "state": "Maharashtra"
+    }
+  },
+  {
+    "name": "Sanjay Gandhi Niradhar Pension Scheme",
+    "description": "Rs.1,500/month DBT for destitute persons-including elderly <65, widows, disabled, orphans, transgender, major illnesses; annual family income <= Rs.21,000, Maharashtra resident.",
+    "link": "https://mahabharti.in/yojana/sanjay-gandhi-niradhar-pension-yojana/",
+    "criteria": {
+      "age_min": null,
+      "age_max": 65,
+      "income_max": 21000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Destitute elderly", 
+        "Widow", 
+        "Person with Disability", 
+        "Orphan", 
+        "Transgender", 
+        "Ill person"
+      ],
+      "state": "Maharashtra"
+    }
+  },
+  {
+    "name": "Maharashtra Widow Pension (IGNWPS / State)",
+    "description": "Rs.600/month (central + state) for widows aged 40-65 under IGNWPS/State widow scheme.",
+    "link": "https://pmgovtschemehub.com/maharashtra-vidhwa-pension/",
+    "criteria": {
+      "age_min": 40,
+      "age_max": 65,
+      "income_max": null,
+      "gender": [
+        "female"
+      ],
+      "occupation": [
+        "Widow", 
+        "Unemployed"
+      ],
+      "state": "Maharashtra"
+    }
+  },
+  {
+    "name": "Maharashtra BOCW Pension Scheme",
+    "description": "Rs.12,000/year (~RS.1,000/month) for registered construction workers aged >=60; annual renewal required; excludes ESI/EPF beneficiaries; surviving spouse eligible.",
+    "link": null,
+    "criteria": {
+      "age_min": 60,
+      "age_max": null,
+      "income_max": null,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "Registered construction worker"
+      ],
+      "state": "Maharashtra"
+    }
+  },
+  {
+    "name": "Pradhan Mantri Awas Yojana (Urban)",
+    "description": "Affordable housing scheme for urban poor with subsidy on home loans.",
+    "link": "https://pmaymis.gov.in/",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 60,
+      "income_max": 60000,
+      "gender": [
+        "all"
+      ],
+      "occupation": [
+        "worker",
+        "unemployed",
+        "self-employed"
+      ],
+      "state": "all"
+    }
+  },
+  {
+    "name": "National Scholarship Portal (Post-Matric)",
+    "description": "Scholarships for post-matric students from economically weaker sections.",
+    "link": "https://scholarships.gov.in/",
+    "criteria": {
+      "occupation": [
+        "student"
+      ],
+      "income_max": 250000,
+      "age_max": 35,
+      "gender": [
+        "all"
+      ],
+      "state": "all"
+    }
+  },
+  {
+    "name": "Stand Up India Scheme",
+    "description": "Loans for SC/ST and women entrepreneurs to start businesses.",
+    "link": "https://www.standupmitra.in/",
+    "criteria": {
+      "gender": [
+        "female"
+      ],
+      "income_max": 1200000,
+      "occupation": [
+        "self-employed"
+      ],
+      "state": "all"
+    }
+  },
+  {
+    "name": "Atal Pension Yojana",
+    "description": "Pension scheme for unorganised sector workers.",
+    "link": "https://npscra.nsdl.co.in/scheme-details.php",
+    "criteria": {
+      "age_min": 18,
+      "age_max": 40,
+      "occupation": [
+        "worker",
+        "unorganised"
+      ],
+      "state": "all",
+      "gender": [
+        "all"
+      ]
+    }
+  },
+  {
+    "name": "PM Vishwakarma Yojana",
+    "description": "Empowers traditional artisans and craftspeople with tools and skill training.",
+    "link": "https://pmvishwakarma.gov.in/",
+    "criteria": {
+      "occupation": [
+        "artisan",
+        "self-employed"
+      ],
+      "income_max": 300000,
+      "gender": [
+        "all"
+      ],
+      "state": "all"
+    }
+  },
+  {
+    "name": "Ayushman Bharat Yojana",
+    "description": "Health insurance of up to \u20b95 lakh for poor and vulnerable families.",
+    "link": "https://pmjay.gov.in/",
+    "criteria": {
+      "income_max": 100000,
+      "gender": [
+        "all"
+      ],
+      "state": "all"
+    }
+  },
+  {
+    "name": "National Apprenticeship Promotion Scheme (NAPS)",
+    "description": "Training and stipend support for youth in industrial apprenticeships.",
+    "link": "https://apprenticeshipindia.gov.in/",
+    "criteria": {
+      "occupation": [
+        "student",
+        "worker"
+      ],
+      "age_min": 16,
+      "gender": [
+        "all"
+      ],
+      "state": "all"
+    }
+  }
+]
