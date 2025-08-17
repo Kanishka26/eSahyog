@@ -11,12 +11,21 @@ def get_matching_schemes(user):
     matches = []
     for s in scheme_data:
         c = s.get("criteria", {})
+
+        # safely fetch values, fallback if missing/None
+        age_min = c.get("age_min")
+        age_max = c.get("age_max")
+        income_max = c.get("income_max")
+        gender = c.get("gender")
+
         if (
-            ("age_max" not in c or user["age"] <= c["age_max"]) and
-            ("income_max" not in c or user["income"] <= c["income_max"]) and
-            ("gender" not in c or user["gender"].lower() == c["gender"].lower())
+            (age_min is None or user["age"] >= age_min) and
+            (age_max is None or user["age"] <= age_max) and
+            (income_max is None or user["income"] <= income_max) and
+            (gender is None or user["gender"].lower() == gender.lower())
         ):
             matches.append(s)
+
     return matches
 
 # Flask setup
