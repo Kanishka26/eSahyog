@@ -14,7 +14,6 @@ def get_matching_schemes(user):
         if (
             ("age_max" not in c or user["age"] <= c["age_max"]) and
             ("income_max" not in c or user["income"] <= c["income_max"]) and
-            ("occupation" not in c or user["occupation"].lower() in [o.lower() for o in c.get("occupation", [])]) and
             ("gender" not in c or user["gender"].lower() == c["gender"].lower())
         ):
             matches.append(s)
@@ -60,14 +59,10 @@ def bot():
         try:
             income = int(incoming_msg)
             user_data[user_id]["income"] = income
-            msg.body("👩‍🌾 Nice! What is your occupation? (e.g. student, farmer, worker)")
-            user_data[user_id]["step"] = "occupation"
+            msg.body("🚻 And your gender? (male/female/other)")
+            user_data[user_id]["step"] = "gender"
         except ValueError:
             msg.body("Please enter income as a number, like *25000*.")
-    elif step == "occupation":
-        user_data[user_id]["occupation"] = incoming_msg
-        msg.body("🚻 And your gender? (male/female/other)")
-        user_data[user_id]["step"] = "gender"
     elif step == "gender":
         user_data[user_id]["gender"] = incoming_msg
         schemes = get_matching_schemes(user_data[user_id])
