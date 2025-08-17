@@ -12,17 +12,24 @@ def get_matching_schemes(user):
     for s in scheme_data:
         c = s.get("criteria", {})
 
-        # safely fetch values, fallback if missing/None
+        age = user.get("age")
+        income = user.get("income")
+        gender = user.get("gender")  # user’s gender
+
         age_min = c.get("age_min")
         age_max = c.get("age_max")
         income_max = c.get("income_max")
-        gender = c.get("gender")
+        gender_req = c.get("gender")  # "male", "female", "other", "all", or None
 
         if (
-            (age_min is None or user["age"] >= age_min) and
-            (age_max is None or user["age"] <= age_max) and
-            (income_max is None or user["income"] <= income_max) and
-            (gender is None or user["gender"].lower() == gender.lower())
+            (age_min is None or age >= age_min) and
+            (age_max is None or age <= age_max) and
+            (income_max is None or income <= income_max) and
+            (
+                gender_req is None 
+                or gender_req.lower() == "all"
+                or (gender and gender.lower() == gender_req.lower())
+            )
         ):
             matches.append(s)
 
