@@ -19,21 +19,30 @@ def get_matching_schemes(user):
         age_min = c.get("age_min")
         age_max = c.get("age_max")
         income_max = c.get("income_max")
-        gender_req = c.get("gender")  # "male", "female", "other", "all", or None
+        gender_req = c.get("gender")  # could be None, str, or list
+
+        gender_ok = False
+        if gender_req is None:  # no restriction
+            gender_ok = True
+        elif isinstance(gender_req, str):
+            if gender_req.lower() == "all":
+                gender_ok = True
+            elif gender and gender.lower() == gender_req.lower():
+                gender_ok = True
+        elif isinstance(gender_req, list):
+            if gender and gender.lower() in [g.lower() for g in gender_req]:
+                gender_ok = True
 
         if (
             (age_min is None or age >= age_min) and
             (age_max is None or age <= age_max) and
             (income_max is None or income <= income_max) and
-            (
-                gender_req is None 
-                or gender_req.lower() == "all"
-                or (gender and gender.lower() == gender_req.lower())
-            )
+            gender_ok
         ):
             matches.append(s)
 
     return matches
+
 
 # Flask setup
 app = Flask(__name__)
